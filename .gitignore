@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# Secrets & certificates
+*.pem
+*.key
+id_rsa*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
