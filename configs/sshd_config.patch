@@ -1,0 +1,13 @@
+this is a patch file for the sshd_config file. It disables password authentication, prohibits 
+root login, and ensures that public key authentication is enabled.
+the numbers of lines are not valid
+
+--- /etc/ssh/sshd_config.orig 
++++ /etc/ssh/sshd_config
+@@ -1,4 +1,4 @@
+-#PasswordAuthentication yes
++PasswordAuthentication no
+-#PermitRootLogin prohibit-password
++PermitRootLogin no
+-#PubkeyAuthentication yes
++PubkeyAuthentication yes
