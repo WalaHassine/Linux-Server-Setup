@@ -1,33 +1,36 @@
-# <Project Title>
+# Linux Server Setup
 
 ## Purpose
-<!-- Describe what this project does and why it exists -->
+Automate secure baseline hardening for an Ubuntu server: user setup, SSH hardening, firewall policy, updates, Fail2Ban protection, hostname/timezone configuration, and verification.
 
 ---
 
-## Milestone 1 — Repository Initialization
-<!-- Placeholder -->
+## Quick start
 
-## Milestone 2 — Environment Setup
-<!-- Placeholder -->
+1. Clone the repository onto your admin machine.
+2. Set required variables for scripts that need user/host metadata.
+3. Run the full setup pipeline:
 
-## Milestone 3 — Configuration Management
-<!-- Placeholder -->
+```bash
+make setup USERNAME=<local-admin-user> REMOTE_USER=<server-user> REMOTE_HOST=<server-ip-or-dns> TIMEZONE=<iana-timezone> HOSTNAME=<server-hostname>
+```
 
-## Milestone 4 — Core Scripts
-<!-- Placeholder -->
+4. Validate core hardening state:
 
-## Milestone 5 — Security Hardening
-<!-- Placeholder -->
+```bash
+make verify
+```
 
-## Milestone 6 — Logging & Monitoring
-<!-- Placeholder -->
+---
 
-## Milestone 7 — CI/CD Pipeline
-<!-- Placeholder -->
+## Milestones
 
-## Milestone 8 — Documentation
-<!-- Placeholder -->
-
-## Milestone 9 — Final Review & Release
-<!-- Placeholder -->
+- Milestone 1 — Repository Initialization
+- Milestone 2 — Environment Setup
+- Milestone 3 — Configuration Management
+- Milestone 4 — Core Scripts
+- Milestone 5 — Security Hardening
+- Milestone 6 — Logging & Monitoring
+- Milestone 7 — CI/CD Pipeline
+- Milestone 8 — Documentation
+- Milestone 9 — Final Review & Release
