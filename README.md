@@ -21,16 +21,3 @@ make setup USERNAME=<local-admin-user> REMOTE_USER=<server-user> REMOTE_HOST=<se
 make verify
 ```
 
----
-
-## Milestones
-
-- Milestone 1 — Repository Initialization
-- Milestone 2 — Environment Setup
-- Milestone 3 — Configuration Management
-- Milestone 4 — Core Scripts
-- Milestone 5 — Security Hardening
-- Milestone 6 — Logging & Monitoring
-- Milestone 7 — CI/CD Pipeline
-- Milestone 8 — Documentation
-- Milestone 9 — Final Review & Release
